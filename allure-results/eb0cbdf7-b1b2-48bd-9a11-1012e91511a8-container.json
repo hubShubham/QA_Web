@@ -1,0 +1,1 @@
+{"uuid":"eb0cbdf7-b1b2-48bd-9a11-1012e91511a8","name":"Scenario Outline: get API  request for check package details based on location/country","children":["bdd2b869-e8ce-43bd-962b-00b424ba94fb"],"befores":[],"afters":[],"links":[],"start":1655455591946,"stop":1655455593613}

@@ -1,0 +1,74 @@
+{
+  "header": {
+    "requestId": "38a1e7de-2713-40b6-aef5-059c973a75d0",
+    "references": {
+      "paymentPlatform": "EasyCash",
+      "transactionId": "38a1e7de-2713-40b6-aef5-059c973a75d0"
+    }
+  },
+  "merchant": {
+    "merchantIdentification": "63109474",
+    "merchantCategoryCode": "4411",
+    "specificAcquirerParameters": {},
+    "companyName": "Some test company",
+    "address": {
+      "addrLine1": "Blasieholmstorg 11 106 70 Stockholm",
+      "postCode": "10670",
+      "city": "Brussels",
+      "country": "056"
+    }
+  },
+  "card": {
+    "brand": "Visa",
+    "pan": "4571994016711686",
+    "isPresent": true,
+    "chargeType": "Charge",
+    "entryMode": {
+      "fallbackindicator": false,
+      "entryMode": "Keyed"
+    },
+    "cvcPresence": "NotProvidedBypass",
+    "expiryDate": {
+      "year": 2050,
+      "month": 12
+    }
+  },
+  "cardHolder": {
+    "isPresent": true,
+    "verifyMethod": "ManualSignature",
+    "pin": {
+      "ksn": "14EA1234560000000000",
+      "pinblock": "9AB1118404F59D4A",
+      "pinblockFormat": "ZPK"
+    }
+  },
+  "transaction": {
+    "transTime": "2020-11-26T12:03:59.000000+01:00",
+    "localDateTime": "2020-11-26T12:03:59",
+    "onlineReason": "AlwaysOnline",
+    "amount": {
+      "currency": "EUR",
+      "amount": 0
+    },
+    "transactionRef": "695635251697",
+    "acceptorReference": "307792154047",
+    "additionalData": {}
+  },
+  "order": {
+    "invoiceAddress": {
+      "addrLine1": "Boulevard de la Woluwe 102",
+      "postCode": "1200",
+      "city": "Woluwe-Saint-Lambert",
+      "state": "Brussels",
+      "country": "056"
+    },
+    "origin": "MailOrder",
+    "cart": []
+  },
+  "poi": {
+    "terminalIds": [
+      "terminal"
+    ],
+    "country": "056"
+  }
+}

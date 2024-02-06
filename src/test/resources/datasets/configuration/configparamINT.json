@@ -1,0 +1,15 @@
+{
+  "name": "Configuration test",
+  "configuration": [
+    {
+      "description": "payment.bankCard.configuration.Bambora_MCC",
+      "key": "MCC",
+      "keyId": 0,
+      "value": "100",
+      "controlType": null,
+      "group": "BAMBORA-GA",
+      "editable": true,
+      "possibleValues": []
+    }
+  ]
+}

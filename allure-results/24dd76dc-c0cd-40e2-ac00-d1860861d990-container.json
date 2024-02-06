@@ -1,0 +1,1 @@
+{"uuid":"24dd76dc-c0cd-40e2-ac00-d1860861d990","name":"Scenario Outline: This API is used to get the list of packages associated with Tenant on the basis of region.","children":["4fec79ad-9102-41c3-a82b-35f9bc61352a"],"befores":[],"afters":[],"links":[],"start":1654852442774,"stop":1654852444409}

@@ -1,0 +1,10 @@
+{    
+  "requestId": "9d907221-8cea-4c3c-9a26-55712b7da356",
+  "requestType": "addpackage",
+  "packages": [
+   {
+    "packageId":"b71953ea-9b67-4409-9c01-ccb486b0ecee",
+    "packageName": "PPaaS Payment Services"
+  }
+  ]
+}

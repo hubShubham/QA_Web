@@ -1,0 +1,1 @@
+{"uuid":"0d7a09ec-d758-4127-b5a4-bf6dad86855e","name":"Scenario Outline: get API  request for check service details based on location/region","children":["db6aafd5-ffe1-4dcc-bdcb-5bbf0c950298"],"befores":[],"afters":[],"links":[],"start":1655210086054,"stop":1655210087261}

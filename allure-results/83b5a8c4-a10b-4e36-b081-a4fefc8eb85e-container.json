@@ -1,0 +1,1 @@
+{"uuid":"83b5a8c4-a10b-4e36-b081-a4fefc8eb85e","name":"Scenario Outline: To verify that Get Api is fetching subscribed packages respective to a location","children":["febe2e7b-6019-44ef-92d4-f648882ea16f"],"befores":[],"afters":[],"links":[],"start":1655108070672,"stop":1655108071810}

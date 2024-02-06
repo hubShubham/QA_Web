@@ -1,0 +1,9 @@
+{
+  "comment": "testing the API",
+  "approvedPackages": [
+   {
+    "packageId":"b71953ea-9b67-4409-9c01-ccb486b0ecee",
+    "packageName": "PPaaS Payment Services"
+  }
+  ]
+}

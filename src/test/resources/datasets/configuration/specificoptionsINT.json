@@ -1,0 +1,23 @@
+{
+"optionId": "05722732-1c49-4a9e-8e3c-6db2e0f63c3b",
+"optionName": "Card_All",
+"optionActive": true,
+"serviceParameters": [
+{
+"paramId": "289e6143-3b02-489c-9c2b-84cd4a2edbbc",
+"paramName": "Payment schemes",
+"paramActive": true,
+"serviceParameterValues": [
+{
+"value": "Visa",
+"valueActive": true
+},
+{
+"value": "Master Card",
+"valueActive": true
+}
+]
+}
+]
+}
+

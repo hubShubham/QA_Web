@@ -1,0 +1,25 @@
+image: maven:3.6-jdk-11
+stages:
+  - test
+
+variables:
+  ENVIRONMENT:
+    value: dev
+    description: The profile to target. Can be dev, int, qa, demo.
+
+Admin_control_test_Cases:
+  stage: test
+  artifacts:
+    when: always
+    reports:
+      junit:
+        - target/surefire-reports/TEST-*.xml
+        - target/failsafe-reports/TEST-*.xml
+    paths:
+      - target/site/allure-maven-plugin/
+  script:
+    #- mvn test -P$ENVIRONMENT
+  - mvn clean test -Denv="ppaas.int"  -D"cucumber.filter.tags=@int"
+
+  after_script:
+    - mvn allure:report
